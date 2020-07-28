@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10893" started-at="2020-07-28T16:51:40Z" finished-at="2020-07-28T16:51:50Z">
+  <suite name="Default suite" duration-ms="24709" started-at="2020-07-28T17:46:49Z" finished-at="2020-07-28T17:47:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10893" started-at="2020-07-28T16:51:40Z" finished-at="2020-07-28T16:51:50Z">
+    <test name="Default test" duration-ms="24709" started-at="2020-07-28T17:46:49Z" finished-at="2020-07-28T17:47:14Z">
       <class name="testpackage.MavenTest1">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.MavenTest1@3ffc5af1]" name="beforeTest" is-config="true" duration-ms="9" started-at="2020-07-28T22:21:40Z" finished-at="2020-07-28T22:21:40Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.MavenTest1@3f49dace]" name="beforeTest" is-config="true" duration-ms="11" started-at="2020-07-28T23:16:49Z" finished-at="2020-07-28T23:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.MavenTest1@3ffc5af1]" name="test" duration-ms="9956" started-at="2020-07-28T22:21:40Z" finished-at="2020-07-28T22:21:49Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.MavenTest1@3f49dace]" name="test" duration-ms="23655" started-at="2020-07-28T23:16:49Z" finished-at="2020-07-28T23:17:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testpackage.MavenTest1@3ffc5af1]" name="afterTest" is-config="true" duration-ms="914" started-at="2020-07-28T22:21:50Z" finished-at="2020-07-28T22:21:50Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testpackage.MavenTest1@3f49dace]" name="afterTest" is-config="true" duration-ms="1026" started-at="2020-07-28T23:17:13Z" finished-at="2020-07-28T23:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
