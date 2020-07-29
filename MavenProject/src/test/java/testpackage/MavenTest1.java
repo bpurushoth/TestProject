@@ -1,10 +1,12 @@
 package testpackage;  
+import static org.testng.AssertJUnit.assertEquals;
 import java.util.concurrent.TimeUnit;  
 import org.openqa.selenium.WebDriver;  
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;  
 import org.testng.annotations.BeforeTest;  
-import org.testng.annotations.Test;  
+import org.testng.annotations.Test;
 public class MavenTest1 {  
 public String baseUrl = "https://www.google.com/";  
 String driverPath = "chromedriver.exe";  
@@ -22,8 +24,9 @@ driver.get(baseUrl);
 String URL= driver.getCurrentUrl();  
 System.out.print(URL);  
 //get the title of the page  
-String title = driver.getTitle();                  
-System.out.println(title); 
+String title = driver.getTitle();
+String ExpectedTitle = "Googe";
+Assert.assertEquals(title, ExpectedTitle);
 driver.quit(); 
 }     
 @BeforeTest  
