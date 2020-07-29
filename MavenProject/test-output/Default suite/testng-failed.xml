@@ -5,6 +5,7 @@
     <classes>
       <class name="testpackage.MavenTest1">
         <methods>
+          <include name="beforeTest"/>
           <include name="test"/>
         </methods>
       </class> <!-- testpackage.MavenTest1 -->

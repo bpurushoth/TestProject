@@ -2,23 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10207" started-at="2020-07-28T18:02:35Z" finished-at="2020-07-28T18:02:45Z">
+  <suite name="Default suite" duration-ms="9706" started-at="2020-07-29T02:41:48Z" finished-at="2020-07-29T02:41:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10207" started-at="2020-07-28T18:02:35Z" finished-at="2020-07-28T18:02:45Z">
+    <test name="Default test" duration-ms="9706" started-at="2020-07-29T02:41:48Z" finished-at="2020-07-29T02:41:58Z">
       <class name="testpackage.MavenTest1">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.MavenTest1@3f49dace]" name="beforeTest" is-config="true" duration-ms="21" started-at="2020-07-28T23:32:35Z" finished-at="2020-07-28T23:32:35Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.MavenTest1@29ee9faa]" name="beforeTest" is-config="true" duration-ms="9" started-at="2020-07-29T08:11:48Z" finished-at="2020-07-29T08:11:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.MavenTest1@3f49dace]" name="test" duration-ms="9420" started-at="2020-07-28T23:32:35Z" finished-at="2020-07-28T23:32:45Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.MavenTest1@29ee9faa]" name="test" duration-ms="9683" started-at="2020-07-29T08:11:48Z" finished-at="2020-07-29T08:11:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testpackage.MavenTest1@3f49dace]" name="afterTest" is-config="true" duration-ms="725" started-at="2020-07-28T23:32:45Z" finished-at="2020-07-28T23:32:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
       </class> <!-- testpackage.MavenTest1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

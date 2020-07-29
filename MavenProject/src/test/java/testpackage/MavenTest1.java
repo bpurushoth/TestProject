@@ -23,15 +23,16 @@ String URL= driver.getCurrentUrl();
 System.out.print(URL);  
 //get the title of the page  
 String title = driver.getTitle();                  
-System.out.println(title);  
+System.out.println(title); 
+driver.quit(); 
 }     
 @BeforeTest  
 public void beforeTest() {    
 System.out.println("before test");  
 }    
-@AfterTest  
+/*@AfterTest  
 public void afterTest() {  
 driver.quit();  
 System.out.println("after test");  
-}      
+}    */  
 }  
