@@ -82,7 +82,7 @@
 			<version>2.19.1</version>  
 			<configuration>  
 			<suiteXmlFiles>  
-			<suiteXmlFile>MavenProject\testng.xml</suiteXmlFile>  
+			<suiteXmlFile>testng.xml</suiteXmlFile>  
 			</suiteXmlFiles>  
 			</configuration>  
 		</plugin>  
