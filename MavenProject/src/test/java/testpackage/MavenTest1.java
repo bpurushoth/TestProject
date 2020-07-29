@@ -25,7 +25,7 @@ String URL= driver.getCurrentUrl();
 System.out.print(URL);  
 //get the title of the page  
 String title = driver.getTitle();
-String ExpectedTitle = "Googe";
+String ExpectedTitle = "Google";
 Assert.assertEquals(title, ExpectedTitle);
 driver.quit(); 
 }     
