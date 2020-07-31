@@ -83,7 +83,10 @@
 			<configuration>  
 			<suiteXmlFiles>  
 			<suiteXmlFile>testng.xml</suiteXmlFile>  
-			</suiteXmlFiles>  
+			</suiteXmlFiles> 
+			<includes>
+                        <include>**/*.java</include>
+                   	</includes>
 			</configuration>  
 		</plugin>  
 		<plugin>  
