@@ -37,7 +37,7 @@ System.out.print(URL);
 System.out.println(title1); 
 driver.quit(); 
 }     
-@Test(enabled=true)             
+@Test(enabled=false)             
 public void twingo() {      
 // set the system property for Chrome driver      
 System.setProperty("webdriver.chrome.driver", driverPath);  
