@@ -13,8 +13,8 @@ public String baseUrl1 = "https://www.google.com/";
 public String baseUrl2 = "https://twingo.techmahindra.com/"; 
 String driverPath = "/usr/bin/chromedriver";  
 public WebDriver driver ;   
-@Test             
-public void test() {      
+@Test(enabled=true)             
+public void google() {      
 // set the system property for Chrome driver      
 System.setProperty("webdriver.chrome.driver", driverPath);  
 // Create driver object for CHROME browser  
@@ -37,7 +37,7 @@ System.out.print(URL);
 System.out.println(title1); 
 driver.quit(); 
 }     
-@Test             
+@Test(enabled=true)             
 public void twingo() {      
 // set the system property for Chrome driver      
 System.setProperty("webdriver.chrome.driver", driverPath);  
