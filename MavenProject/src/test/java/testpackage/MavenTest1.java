@@ -11,12 +11,13 @@ import org.testng.annotations.Test;
 public class MavenTest1 {  
 public String baseUrl1 = "https://www.google.com/";
 public String baseUrl2 = "https://twingo.techmahindra.com/"; 
-String driverPath = "/usr/bin/chromedriver";  
+String driverPath2= "/usr/bin/chromedriver";  
+String driverPath1 = "chromedriver.exe"; 
 public WebDriver driver ;   
 @Test(enabled=true)             
 public void google() {      
 // set the system property for Chrome driver      
-System.setProperty("webdriver.chrome.driver", driverPath);  
+System.setProperty("webdriver.chrome.driver", driverPath1);  
 // Create driver object for CHROME browser  
 ChromeOptions chromeOptions = new ChromeOptions();
 chromeOptions.addArguments("--headless");
