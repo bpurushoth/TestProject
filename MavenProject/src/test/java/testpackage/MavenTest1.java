@@ -41,7 +41,7 @@ driver.quit();
 @Test(enabled=false)             
 public void twingo() {      
 // set the system property for Chrome driver      
-System.setProperty("webdriver.chrome.driver", driverPath);  
+System.setProperty("webdriver.chrome.driver", driverPath1);  
 // Create driver object for CHROME browser  
 ChromeOptions chromeOptions = new ChromeOptions();
 chromeOptions.addArguments("--headless");
