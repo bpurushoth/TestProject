@@ -17,7 +17,7 @@ public WebDriver driver ;
 @Test(enabled=true)             
 public void google() {      
 // set the system property for Chrome driver      
-System.setProperty("webdriver.chrome.driver", driverPath1);  
+System.setProperty("webdriver.chrome.driver", driverPath2);  
 // Create driver object for CHROME browser  
 ChromeOptions chromeOptions = new ChromeOptions();
 chromeOptions.addArguments("--headless");
@@ -41,7 +41,7 @@ driver.quit();
 @Test(enabled=false)             
 public void twingo() {      
 // set the system property for Chrome driver      
-System.setProperty("webdriver.chrome.driver", driverPath1);  
+System.setProperty("webdriver.chrome.driver", driverPath2);  
 // Create driver object for CHROME browser  
 ChromeOptions chromeOptions = new ChromeOptions();
 chromeOptions.addArguments("--headless");
